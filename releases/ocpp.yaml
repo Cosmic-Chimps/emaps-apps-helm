@@ -9,7 +9,7 @@ metadata:
 spec:
   releaseName: ocpp
   chart:
-    repository: https://raw.github.com/Cosmic-Chimps/test-helm.git
+    repository: https://raw.githubusercontent.com/Cosmic-Chimps/test-helm/master/charts
     name: ocpp
     version: 0.0.18
   values:
