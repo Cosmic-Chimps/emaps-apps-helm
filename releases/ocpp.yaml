@@ -13,4 +13,4 @@ spec:
     name: ocpp
     version: 0.0.18
   values:
-    image: 051377375492.dkr.ecr.eu-west-1.amazonaws.com/ocpp:0.0.18
+    imageTag: 0.0.18
