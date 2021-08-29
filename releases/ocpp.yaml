@@ -1,0 +1,16 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: ocpp
+  namespace: evectrum
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: ocpp
+  chart:
+    repository: https://raw.github.com/Cosmic-Chimps/test-helm.git
+    name: ocpp
+    version: 0.0.18
+  values:
+    image: 051377375492.dkr.ecr.eu-west-1.amazonaws.com/ocpp:0.0.18
