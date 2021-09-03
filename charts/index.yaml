@@ -13,7 +13,7 @@ entries:
     - https://github.com/ElectromapsSL/ocpp
     type: application
     urls:
-    - https://raw.githubusercontent.com/Cosmic-Chimps/emaps-apps-helm/main/charts/charts/ocpp-0.0.21.tgz
+    - https://raw.githubusercontent.com/Cosmic-Chimps/emaps-apps-helm/main/charts/ocpp-0.0.21.tgz
     version: 0.0.21
   - apiVersion: v2
     appVersion: 0.0.19
